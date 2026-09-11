@@ -1,6 +1,5 @@
 """
 Hostel Room Booking and Fees Management System
-
 A menu-driven console application to replace a paper ledger for tracking
 hostel room bookings and student fee payments.
 
