@@ -405,7 +405,7 @@ def menu_defaulters(system):
     print(f"\n{len(defaulters)} defaulter(s) found (balance > {threshold:.2f}):\n")
     for s in defaulters:
         print(f"  {s['name']} ({s['reg_no']}) - Block {s['block']} Room {s['room']} "
-              f"- Owes {s['balance']:.2f}")
+              f"- Bal- UGX:{s['balance']:.2f}")
 
 
 def print_menu():

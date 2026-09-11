@@ -44,13 +44,15 @@
       },
       "ROOM4": {
         "capacity": 4,
-        "occupants": []
+        "occupants": [
+          "8455"
+        ]
       }
     }
   },
   "students": {
     "5055": {
-      "name": "Moses Kyegombe",
+      "name": "Noah Kusaasira",
       "reg_no": "5055",
       "block": "BLOCK-A",
       "room": "ROOM1",
@@ -88,9 +90,33 @@
       "block": "BLOCK-B",
       "room": "ROOM1",
       "total_fee": 100000.0,
-      "paid": 0.0,
-      "balance": 100000.0,
-      "payments": []
+      "paid": 55000.0,
+      "balance": 45000.0,
+      "payments": [
+        {
+          "amount": 55000.0,
+          "date": "2026-09-11 20:01:19"
+        }
+      ]
+    },
+    "8455": {
+      "name": "Noah Denis",
+      "reg_no": "8455",
+      "block": "BLOCK-C",
+      "room": "ROOM4",
+      "total_fee": 60000.0,
+      "paid": 35000.0,
+      "balance": 25000.0,
+      "payments": [
+        {
+          "amount": 30000.0,
+          "date": "2026-09-11 20:47:55"
+        },
+        {
+          "amount": 5000.0,
+          "date": "2026-09-11 20:48:56"
+        }
+      ]
     }
   }
 }
