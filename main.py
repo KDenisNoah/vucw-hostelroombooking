@@ -323,10 +323,6 @@ def get_nonnegative_float(prompt):
             print("Please enter a valid number.")
 
 
-def pause():
-    input("\nPress Enter to return to the menu...")
-
-
 def menu_register_allocate(system):
     print("\n--- Register Student & Allocate Room ---")
     reg_no = get_nonempty_str("Registration number: ")
@@ -437,26 +433,19 @@ def main():
 
         if choice == "1":
             print("\n" + system.occupancy_overview())
-            pause()
         elif choice == "2":
             menu_register_allocate(system)
-            pause()
         elif choice == "3":
             menu_record_payment(system)
-            pause()
         elif choice == "4":
             menu_search(system)
-            pause()
         elif choice == "5":
             menu_block_report(system)
-            pause()
         elif choice == "6":
             menu_defaulters(system)
-            pause()
         elif choice == "7":
             if system.save_data():
                 print("\n[SUCCESS] Data saved to disk.")
-            pause()
         elif choice == "8":
             if system.save_data():
                 print("\nData saved. Goodbye!")
@@ -465,7 +454,6 @@ def main():
             break
         else:
             print("\nInvalid choice. Please enter a number from 1 to 8.")
-            pause()
 
 
 if __name__ == '__main__':

@@ -20,7 +20,9 @@
     "BLOCK-B": {
       "ROOM1": {
         "capacity": 2,
-        "occupants": []
+        "occupants": [
+          "78839"
+        ]
       },
       "ROOM2": {
         "capacity": 2,
@@ -78,6 +80,16 @@
       "total_fee": 50000.0,
       "paid": 0.0,
       "balance": 50000.0,
+      "payments": []
+    },
+    "78839": {
+      "name": "Moses K",
+      "reg_no": "78839",
+      "block": "BLOCK-B",
+      "room": "ROOM1",
+      "total_fee": 100000.0,
+      "paid": 0.0,
+      "balance": 100000.0,
       "payments": []
     }
   }
