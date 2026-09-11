@@ -3,8 +3,6 @@ Hostel Room Booking and Fees Management System
 A menu-driven console application to replace a paper ledger for tracking
 hostel room bookings and student fee payments.
 
-Author: Noah KUSAASIRA
-
 Option 1: Hostel Room Booking and Fees Management System
 Your university’s hostel warden currently tracks room bookings and fee payments using a paper ledger, which is slow
 and error-prone. Your group has been asked to build a Python system to replace it.
